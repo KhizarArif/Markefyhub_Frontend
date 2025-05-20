@@ -84,6 +84,7 @@ export default function HeroSection() {
       setCurrentIndex(currentIndex - visibleCards);
     }
   };
+  
   return (
     <main className="flex flex-col items-center w-full">
 
@@ -100,7 +101,7 @@ export default function HeroSection() {
             <input
               type="email"
               placeholder="Enter Your Email"
-              className="flex-1 p-4 rounded-md border border-gray-300 outline-none bg-[#E7E7E7] h-[4rem]"
+              className="flex-1 p-4 rounded-md border border-gray-300 outline-none bg-[#E7E7E7] h-[4rem] text-[#282c4b]"
             />
 
             <button className="bg-[#2C35A5] w-[40%] text-white px-6 py-3 rounded-md h-[4rem]">

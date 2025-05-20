@@ -3,7 +3,7 @@
   padding:1%;
   margin: 1%;
 } */
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -33,5 +33,5 @@ body {
 .clip-triangle {
   clip-path: polygon(100% 0, 0 50%, 100% 100%);
 }
-
+ */
 
